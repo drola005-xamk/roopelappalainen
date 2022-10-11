@@ -7,6 +7,7 @@
     color: black;
 }
 
+/*Fonttien responsiivisuus*/
 html {
     font-size: calc(15px + 0.390625vw);
 }
@@ -77,6 +78,11 @@ footer {
     background-color: rgb(237, 237, 253);
 }
 
+/*Piilotetaan englanninkielinen sisältö*/
+#navigationENG, #containerENG {
+    display: none;
+}
+
 @media only screen and (min-width: 481px) {
     .container {
         max-width: 90%;
@@ -91,17 +97,13 @@ footer {
     }
 
     img {
-        width: 70%;
+        max-width: 70%;
     }
 
     .taidotLeftRight dl {
         margin-right: 15px;
     }
   
-}
-
-#navigationENG, #headerENG, #profiiliENG, #koulutusENG, #tyokokemusENG, #taidotENG, #projektitENG, #otayhteyttaENG {
-    display: none;
 }
 
 @media only screen and (min-width: 801px) {
@@ -112,15 +114,7 @@ footer {
     }
 
     img {
-        width: 50%;
-    }
-
-    .taidotLeftRight {
-        width: 80%;
-    }
-
-    .taidotLeftRight dl {
-        margin-right: 15px;
+        max-width: 50%;
     }
 
 }
