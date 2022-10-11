@@ -53,6 +53,7 @@ dd {
 
 dt {
     margin-top: 10px;
+    font-weight: bold;
 }
 
 dl {
@@ -62,7 +63,7 @@ dl {
 .taidotLeftRight {
     display:flex;
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: flex-start; 
 }
 
 .col{
